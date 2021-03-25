@@ -11,7 +11,7 @@
 
 This project uses Yarn, JavaScript (no TS), Vue, Vue templates and server-side rendering using Node.
 
-There is just one page - [index.vue](/pages/index.vue).
+Content is in the [pages](/pages/) directory as `.vue` files.
 
 
 ## Preview
