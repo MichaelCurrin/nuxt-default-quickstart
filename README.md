@@ -4,8 +4,12 @@
 [![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/nuxt-default-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/nuxt-default-quickstart/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
+[![Made with Node.js](https://img.shields.io/badge/Node.js->%3D12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
+[![Made with Yarn](https://img.shields.io/badge/Yarn->%3D1-blue?logo=yarn&logoColor=white)](https://yarnpkg.com/)
 
-This project uses Yarn, JavaScript (no TS), Vue templates and server-side rendering using Node.
+[![dependency - nuxt](https://img.shields.io/badge/dependency-nuxt-blue)](https://www.npmjs.com/package/nuxt)
+
+This project uses Yarn, JavaScript (no TS), Vue, Vue templates and server-side rendering using Node.
 
 There is just one page - [index.vue](/pages/index.vue).
 
