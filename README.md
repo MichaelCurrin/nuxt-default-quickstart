@@ -34,7 +34,7 @@ See the [Nuxt homepage](https://nuxtjs.org/) for more info.
 
 This project uses server-side rendering with Node, but also comes with the option to generate a static site. Follow [Documentation](#documentation) instructions below to setup and run the app locally.
 
-Content is in the [pages](/pages/) directory as `.vue` files.
+Content is in the [pages](/pages/) directory as `.vue` files. The [Examples](https://nuxtjs.org/examples) section of the Nuxt docs covers a Hello World example which has multiple pages and can be run in the online sandbox.
 
 
 ## Create a fresh project
