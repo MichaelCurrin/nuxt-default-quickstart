@@ -1,27 +1,63 @@
 # Nuxt Default Quickstart
 > Starter template for a Nuxt project using the default setup
 
-This project uses Yarn, JavaScript (no TS), Vue templates and server-side rendering with Node.
+[![GitHub tag](https://img.shields.io/github/tag/MichaelCurrin/nuxt-default-quickstart?include_prereleases=&sort=semver)](https://github.com/MichaelCurrin/nuxt-default-quickstart/releases/)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 
-There is only one page - [index.vue](/pages/index.vue).
+
+This project uses Yarn, JavaScript (no TS), Vue templates and server-side rendering using Node.
+
+There is just one page - [index.vue](/pages/index.vue).
 
 
-## Build Setup
+## Preview
 
-```bash
-# install dependencies
+<div align="center">
+    <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+</div>
+
+
+## Installation
+
+Install dependencies
+
+```sh
 $ yarn install
+```
 
-# serve with hot reload at localhost:3000
+
+## Usage
+
+Serve with hot reload at localhost:3000
+
+```sh
 $ yarn dev
+```
 
-# build for production and launch server
+
+## Deploy
+
+Build for production and then launch server.
+
+```sh
 $ yarn build
 $ yarn start
+```
 
-# generate static project
+Generate static project to `dist` directory.
+
+```sh
 $ yarn generate
 ```
+
+This can be deployed as a GitHub Pages site. 
+
+Recommended:
+
+- Add a `deploy` command to `package.json` as per docs.
+- Or use GitHub Actions to build the site and commit the site to `gh-pages` branch.
+
+See info on [GitHub Pages deployment](https://nuxtjs.org/docs/2.x/deployment/github-pages/) in the Nuxt docs.
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
@@ -51,3 +87,8 @@ All the default options were used:
 ```
 
 Username was lowercased even though entered as `MichaelCurrin`.
+
+
+## License
+
+Released under [MIT](/LICENSE) by [@MichaelCurrin](https://github.com/MichaelCurrin).
