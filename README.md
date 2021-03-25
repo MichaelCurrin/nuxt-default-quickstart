@@ -66,13 +66,17 @@ See info on [GitHub Pages deployment](https://nuxtjs.org/docs/2.x/deployment/git
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 
-## How this project was generated
+## Start a fresh project
+
+See the [Getting Started / Installation](https://nuxtjs.org/docs/2.x/get-started/installation) Nuxt docs for more info.
+
+This project was generated with this command:
 
 ```sh
 $ yarn create nuxt-app nuxt-default-quickstart
 ```
 
-All the default options were used:
+All the default options were used, as follows:
 
 ```
 ✨  Generating Nuxt.js project in nuxt-default-quickstart
@@ -90,7 +94,7 @@ All the default options were used:
 ? Version control system: Git
 ```
 
-Username was lowercased even though entered as `MichaelCurrin`.
+Username became lowercase even though entered as `MichaelCurrin`. The app suggested `Michael Currin`, perhaps from git name rather. I don't know how this gets used.
 
 
 ## License
