@@ -7,11 +7,8 @@
 [![Made with Node.js](https://img.shields.io/badge/Node.js->%3D12-blue?logo=node.js&logoColor=white)](https://nodejs.org)
 [![Made with Yarn](https://img.shields.io/badge/Yarn->%3D1-blue?logo=yarn&logoColor=white)](https://yarnpkg.com/)
 
-[![dependency - nuxt](https://img.shields.io/badge/dependency-nuxt-blue)](https://www.npmjs.com/package/nuxt)
-
-This project uses Yarn, JavaScript (no TS), Nuxt, Vue and Vue templates. This project uses server-side rendering with Node, but also comes with the option to generate a static site.
-
-Content is in the [pages](/pages/) directory as `.vue` files.
+[![Package - nuxt](https://img.shields.io/github/package-json/dependency-version/MichaelCurrin/nuxt-default-quickstart/nuxt)](https://www.npmjs.com/package/nuxt)
+[![dependency - vue](https://img.shields.io/badge/dependency-vue-blue?logo=vue.js&logoColor=white)](https://www.npmjs.com/package/vue)
 
 
 ## Preview
@@ -29,51 +26,15 @@ Content is in the [pages](/pages/) directory as `.vue` files.
 </div>
 
 
-## Installation
+## About
 
-Install dependencies
+This Nuxt project uses Yarn, JavaScript (no TS), Vue and Vue templates. 
 
-```sh
-$ yarn install
-```
+See the [Nuxt homepage](https://nuxtjs.org/) for more info.
 
+This project uses server-side rendering with Node, but also comes with the option to generate a static site. Follow [Documentation](#documentation) instructions below to setup and run the app locally.
 
-## Usage
-
-Serve with hot reload at localhost:3000
-
-```sh
-$ yarn dev
-```
-
-
-## Deploy
-
-### SSR
-
-Build for production and then launch the Node server.
-
-```sh
-$ yarn build
-$ yarn start
-```
-
-### Static
-
-Generate static build output in `dist` directory. This can be deployed as a GitHub Pages site. 
-
-```sh
-$ yarn generate
-```
-
-Recommended:
-
-- Add a `deploy` command to `package.json` as per docs.
-- Or use GitHub Actions to build the site and commit the site to `gh-pages` branch.
-
-See info on [GitHub Pages deployment](https://nuxtjs.org/docs/2.x/deployment/github-pages/) in the Nuxt docs.
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Content is in the [pages](/pages/) directory as `.vue` files.
 
 
 ## Create a fresh project
@@ -105,6 +66,53 @@ All the default options were used, as follows:
 ```
 
 Username became lowercase even though entered as `MichaelCurrin`. The app suggested `Michael Currin`, perhaps from git name rather. I don't know how this gets used.
+
+
+## Documentation
+
+### Installation
+
+Install dependencies
+
+```sh
+$ yarn install
+```
+
+### Usage
+
+Serve with hot-reload at `localhost:3000`.
+
+```sh
+$ yarn dev
+```
+
+### Deploy
+
+#### Server-side rendering
+
+Build for production and then launch the Node server.
+
+```sh
+$ yarn build
+$ yarn start
+```
+
+#### Static
+
+Generate static build output in `dist` directory. This can be deployed as a GitHub Pages site. 
+
+```sh
+$ yarn generate
+```
+
+Recommended:
+
+- Add a `deploy` command to `package.json` as per docs.
+- Or use GitHub Actions to build the site and commit the site to `gh-pages` branch.
+
+See info on [GitHub Pages deployment](https://nuxtjs.org/docs/2.x/deployment/github-pages/) in the Nuxt docs.
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 
 ## License
