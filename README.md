@@ -9,7 +9,7 @@
 
 [![dependency - nuxt](https://img.shields.io/badge/dependency-nuxt-blue)](https://www.npmjs.com/package/nuxt)
 
-This project uses Yarn, JavaScript (no TS), Vue, Vue templates and server-side rendering using Node.
+This project uses Yarn, JavaScript (no TS), Nuxt, Vue and Vue templates. This project uses server-side rendering with Node, but also comes with the option to generate a static site.
 
 Content is in the [pages](/pages/) directory as `.vue` files.
 
@@ -18,6 +18,14 @@ Content is in the [pages](/pages/) directory as `.vue` files.
 
 <div align="center">
     <img src="/sample.png" alt="Sample screenshot" title="Sample screenshot" width="400" />
+</div>
+
+<br>
+
+<div align="center">
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MichaelCurrin/nuxt-default-quickstart/generate)
+
 </div>
 
 
@@ -41,20 +49,22 @@ $ yarn dev
 
 ## Deploy
 
-Build for production and then launch server.
+### SSR
+
+Build for production and then launch the Node server.
 
 ```sh
 $ yarn build
 $ yarn start
 ```
 
-Generate static project to `dist` directory.
+### Static
+
+Generate static build output in `dist` directory. This can be deployed as a GitHub Pages site. 
 
 ```sh
 $ yarn generate
 ```
-
-This can be deployed as a GitHub Pages site. 
 
 Recommended:
 
@@ -66,7 +76,7 @@ See info on [GitHub Pages deployment](https://nuxtjs.org/docs/2.x/deployment/git
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 
-## Start a fresh project
+## Create a fresh project
 
 See the [Getting Started / Installation](https://nuxtjs.org/docs/2.x/get-started/installation) Nuxt docs for more info.
 
