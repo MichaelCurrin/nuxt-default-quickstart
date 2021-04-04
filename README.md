@@ -36,6 +36,10 @@ This project uses server-side rendering with Node, but also comes with the optio
 
 Content is in the [pages](/pages/) directory as `.vue` files. The [Examples](https://nuxtjs.org/examples) section of the Nuxt docs covers a Hello World example which has multiple pages and can be run in the online sandbox.
 
+Related project:
+
+- [![MichaelCurrin - nuxt-static-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=nuxt-static-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/nuxt-static-quickstart)
+
 
 ## Create a fresh project
 
