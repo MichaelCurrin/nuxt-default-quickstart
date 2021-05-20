@@ -46,6 +46,8 @@ Related project:
 
 - [![MichaelCurrin - nuxt-static-quickstart](https://img.shields.io/static/v1?label=MichaelCurrin&message=nuxt-static-quickstart&color=blue&logo=github)](https://github.com/MichaelCurrin/nuxt-static-quickstart)
 
+See [Nuxt](https://michaelcurrin.github.io/dev-resources/resources/javascript/packages/nuxt/) under Dev Resources.
+
 
 ## Create a fresh project
 
